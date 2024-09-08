@@ -6,6 +6,7 @@ acura,rlx
 acura,ilx
 acura,mdx
 acura,rdx
+acura,tl
 acura,tsx
 acura,rsx
 audi,quattro
@@ -13,6 +14,7 @@ audi,a4
 audi,a6
 audi,a5
 audi,a7
+audi,s4
 audi,q3
 audi,q5
 audi,q7
@@ -23,6 +25,7 @@ bmw,5-series
 bmw,6-series
 bmw,4-series
 bmw,xdrive
+bmw,330i
 bmw,alpina
 bmw,330ci
 bmw,328i
@@ -36,6 +39,7 @@ bmw,640i
 bmw,3er
 bmw,5er
 bmw,m5
+bmw,e90
 bmw,m3
 bmw,m6
 bmw,bmws
@@ -276,6 +280,8 @@ lincoln,mks
 lincoln,mkx
 lincoln,mkc
 lincoln,mkt
+lexus,es300
+lexus,is350
 mazda,az-offroad
 mazda,az-wagon
 mazda,familia
