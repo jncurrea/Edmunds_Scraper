@@ -58,3 +58,23 @@ After performing this analysis and plotting the lift values, we can give some in
 #### Brand Clustering
 - Toyota, Nissan, and Honda are clustered away from the core luxury segment, indicating that while they may offer entry-level luxury models, they are primarily perceived as value-oriented or non-luxury brands. This could be due to their broader product range that includes more economy and family-oriented vehicles. JD Power could explore the potential for these brands to further penetrate the entry-level luxury market by enhancing luxury features or branding these specific models more distinctly.
 - Chrysler is positioned separately from the other brands, which may reflect its divergence from the entry level luxury market. This distinct positioning can be an advantage, but JD Power should monitor whether Chrysler’s brand perception aligns with entry-level luxury or if it is viewed more as a niche brand.
+
+### Step 5: Calculating lift values between brands and common attributes
+This step is very similar to Step 4, however, now we calculated lift values between brands and attributes related to brands (e.g performance, luxury, price, interior, power). <br>
+After performing this analysis, we printed out a lift matrix that would tell us the lift values (association) between brands and attributes. The higher the value, the higer the association. One example of this is Audi and Price (lift value of 1.22). What that lift value is saying is that Audi is frequently mentioned when the word price is mentioned.
+<br>
+
+![Lift Matrix](https://github.com/jncurrea/Edmunds_Scraper/blob/main/Assignment1/Reference_Images/lift_att.png)
+
+<br>
+
+#### Insights offered
+##### Strengths
+- Audi and Cadillac: Both brands show strong lift values across multiple attributes, particularly in interior (Audi: 1.345, Cadillac: 1.573) and price (Audi: 1.222, Cadillac: 1.233). This suggests that they are perceived as leaders in providing high-quality interiors and justifying their pricing in the luxury segment. This perception aligns well with their positioning as premium brands.
+- Honda and Toyota: Both brands have high lift values for luxury (Honda: 1.264, Toyota: 1.669) and performance (Honda: 1.157, Toyota: 1.218). Despite not traditionally being considered luxury brands, their entry-level luxury models seem to be well-regarded in these aspects. This could indicate growing acceptance of these brands in the luxury market.
+##### Weaknesses
+- Infiniti and Lexus: Both brands show lower lift values in luxury (Infiniti: 0.734, Lexus: 0.879) and performance (Infiniti: 0.812, Lexus: 0.932). For brands positioned as luxury, this could indicate that their current models are not perceived as competitive in these key attributes. They may need to invest in enhancing these aspects to improve their market position.
+- BMW: The lift value for luxury (0.899) is relatively lower compared to competitors like Cadillac (1.186) and Audi (1.050). BMW might need to focus on reinforcing its luxury credentials to maintain its competitive edge.
+
+##### Disclaimer
+Without sentiment analysis, it is difficult to say whether or not these co-occurances occurred with positive or negative connotation. In that regard, we can't say whether or not, for example, toyota is the most luxurious car. We can say, however, that when car enthusiasts are on the topic of luxury, they are often also talking about toyotas. What's more telling is that in these luxury discussions, infiniti and lexus are not being mentioned, which are meant to be positioned as more luxurious than toyota or honda. A deeper sentiment is suggested in order to uncover if these conversations are indicating that toyota and honda are, say, comparable to luxury cars. These findings hightlight a lot of potential areas to delve deeper into this discussion data, since there are many findings that are unexpected compared to what we know about the ideal marketing of these brands.
