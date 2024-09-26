@@ -1,7 +1,7 @@
 # Edmunds Scraper
 ## By Jose Currea, Ramzi Kattan, Hadley Krummel, Evan Hadd, and Jenna Ferguson
 
-![Edmunds](Reference_Images/download.jpeg)
+![Edmunds](https://github.com/jncurrea/Edmunds_Scraper/blob/main/Assignment1/Reference_Images/download.jpeg)
 
 <br>
 This project uses web-scraping techniques with the goal of providing advice/insights based on Edmunds.com forum discussions. It's aim is to perform market research for any entry-level luxury brand that wants to break into the automotive field.
@@ -26,13 +26,13 @@ For reference on the code, please refer to the [Source Code](https://github.com/
 
 ### Step 2: Tokenize and test Zipf's Law
 For this step, we used the ".split()" method built in in python to tokenize the messages into list of words. One example of this method in action can be seen here: <br>
-![Tokenization Example](Reference_Images/tokenization.png)
+![Tokenization Example](https://github.com/jncurrea/Edmunds_Scraper/blob/main/Assignment1/Reference_Images/tokenization.png)
 <br>
 After tokenizing, we moved on to test Zipf's Law on our data. Recall Zipf's Law states that the frequency of an item is inversely proportional to its rank, or that the frequency decreases as the rank increases. Basically, the most common word will appear about twice as often as the second most common word, three times as often as the third most common word, and so on.
 <br>
 The following plots show the behaviours of all our words and the top 100 words (ranked by frequency):
-![All Words Zipf's Law](Reference_Images/log_all_words.png)
-![Top 100 Words Zipf's Law](Reference_Images/log_top100.png)
+![All Words Zipf's Law](https://github.com/jncurrea/Edmunds_Scraper/blob/main/Assignment1/Reference_Images/log_all_words.png)
+![Top 100 Words Zipf's Law](https://github.com/jncurrea/Edmunds_Scraper/blob/main/Assignment1/Reference_Images/log_top100.png)
 <br>
 
 #### Statistical Description
