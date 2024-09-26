@@ -78,3 +78,15 @@ After performing this analysis, we printed out a lift matrix that would tell us 
 
 ##### Disclaimer
 Without sentiment analysis, it is difficult to say whether or not these co-occurances occurred with positive or negative connotation. In that regard, we can't say whether or not, for example, toyota is the most luxurious car. We can say, however, that when car enthusiasts are on the topic of luxury, they are often also talking about toyotas. What's more telling is that in these luxury discussions, infiniti and lexus are not being mentioned, which are meant to be positioned as more luxurious than toyota or honda. A deeper sentiment is suggested in order to uncover if these conversations are indicating that toyota and honda are, say, comparable to luxury cars. These findings hightlight a lot of potential areas to delve deeper into this discussion data, since there are many findings that are unexpected compared to what we know about the ideal marketing of these brands.
+
+### Step 6: Calculating lift values between brands and "aspirational" messages
+
+Again, a very similar process as in steo 5 was performed here. We got human-generated sentences representing aspiration such as forever car, wish I had, etc... Then, we performed a replacement process where we replaced these sentences with the word "aspire".<br>
+After the replacement, we performed the same lift calculations, however, now we did it between brands and the word "aspiration". 
+
+![Lift values for brands and aspiration](https://github.com/jncurrea/Edmunds_Scraper/blob/main/Assignment1/Reference_Images/asp_lift.png)
+
+### Step 7: Conclusions and Recommendations
+It seems as though BMW, Audi, and Nissan are most highly associated with with the term "aspire". Meanwhile, the brands Toyota, Lexus and Infiniti are the least associated with "aspire". Thus, I would recommend to a firm that they should push to mimic the feel of the BMW, Audi, and Nissan if they are trying to amp up their demand. 
+
+Moreover, it's important to note that BMW and Audi are the only brands with a positive lift, meaning that people aspire to have these two car brands, and much less so with the others. 
