@@ -38,3 +38,23 @@ The following plots show the behaviours of all our words and the top 100 words (
 #### Statistical Description
 
 According to our statistical exploration, the slopes found in the previous problem are statistically different than the zipf's law slope of -1. Since the t scores are large and the p values are small, this means that we reject the null hypothesis. The standard deviations that result from the regression are extremely small, which is what causes a high t score and therefore a statistically significant difference between the slope produced and the -1 slope of the null hypothesis. 
+
+### Step 3: Finding the top 10 popular brands by number of mentions
+For this step, we scraped the [KBB Website](https://www.kbb.com/car-make-model-list/used/view-all/make/) to account for as most carbrands as we could. After scraping we performed a replacement process were we replaced specific models of a brand, for the actual brand name (e.g replacing m3 for BMW).<br> Refer to the [Make Model CSV](https://github.com/jncurrea/Edmunds_Scraper/blob/main/Assignment1/merged-1.csv) for more examples. <br> After performing this scraping process, we proceeded to find the top 10 brands by frequency of mentions in the comments. These brands are the following: <br>
+![Top 10 Brands](https://github.com/jncurrea/Edmunds_Scraper/blob/main/Assignment1/Reference_Images/top_10_brands.png)
+
+### Step 4: Calculating lift values among brands to check for association
+Now we start building data driven insights for any entry-level luxury brand that wants to break into the automotive field. Let's recall that lift values is a measurement used to check association between words. When we talk about association we are making reference to how often a word is mentioned when another word is mentioned (e.g how often is BMW mentioned when Audi is present in the same comment?) <br>
+![Lift Formula](https://github.com/jncurrea/Edmunds_Scraper/blob/main/Assignment1/Reference_Images/lift_formula.png)
+<br>
+After performing this analysis and plotting the lift values, we can give some insights regarding brand perception and brand clustering
+
+![Lift between brands](https://github.com/jncurrea/Edmunds_Scraper/blob/main/Assignment1/Reference_Images/lift_brands.png)
+
+#### Brand Perception
+- Lexus, Infiniti, and Acura are positioned close to each other in the MDS plot, indicating that consumers often mention these brands together. This suggests that they are perceived similarly in terms of features, quality, or value proposition in the entry-level luxury segment. JD Power should consider these brands as direct competitors and further investigate the specific attributes that consumers associate with them.
+- Audi and BMW are relatively close in the plot but distinctly separate from other brands, indicating a strong presence in the luxury segment with unique positioning. These brands are likely competing for the same high-performance and luxury-focused consumer base. Any marketing or product strategy for these brands should focus on their performance and luxury heritage.
+
+#### Brand Clustering
+- Toyota, Nissan, and Honda are clustered away from the core luxury segment, indicating that while they may offer entry-level luxury models, they are primarily perceived as value-oriented or non-luxury brands. This could be due to their broader product range that includes more economy and family-oriented vehicles. JD Power could explore the potential for these brands to further penetrate the entry-level luxury market by enhancing luxury features or branding these specific models more distinctly.
+- Chrysler is positioned separately from the other brands, which may reflect its divergence from the entry level luxury market. This distinct positioning can be an advantage, but JD Power should monitor whether Chrysler’s brand perception aligns with entry-level luxury or if it is viewed more as a niche brand.
